@@ -17,7 +17,7 @@ export default function Footer() {
             </p>
             <div className="mt-6">
               <a 
-                href="https://wa.me/message/ABCDEF123456" 
+                href="https://api.whatsapp.com/send?phone=556392437559&text=SUPORTE" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-[#92caa2] hover:text-[#7ab18a] transition-colors"

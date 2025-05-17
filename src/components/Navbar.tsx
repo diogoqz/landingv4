@@ -55,7 +55,7 @@ export default function Navbar() {
           <Button 
             variant="default" 
             className="bg-[#92caa2] hover:bg-[#7ab18a] text-background ml-2"
-            onClick={() => window.open('https://checkout.hotmart.com', '_blank')}
+            onClick={() => window.open('https://hotm.art/prescrevamepremium', '_blank')}
           >
             Testar Agora
           </Button>
@@ -116,7 +116,7 @@ export default function Navbar() {
           <Button 
             variant="default" 
             className="bg-[#92caa2] hover:bg-[#7ab18a] text-background mt-4 w-full"
-            onClick={() => window.open('https://checkout.hotmart.com', '_blank')}
+            onClick={() => window.open('https://hotm.art/prescrevamepremium', '_blank')}
           >
             Testar Agora
           </Button>

@@ -50,7 +50,7 @@ export default function Hero() {
               <Button 
                 size="lg" 
                 className="bg-[#92caa2] hover:bg-[#7ab18a] text-background font-medium"
-                onClick={() => window.open('https://checkout.hotmart.com', '_blank')}
+                onClick={() => window.open('https://hotm.art/prescrevamepremium', '_blank')}
               >
                 <Brain className="mr-2 h-5 w-5" />
                 Começar Agora

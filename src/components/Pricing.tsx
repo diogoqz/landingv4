@@ -12,7 +12,7 @@ export default function Pricing() {
   
   const handleSubscribe = () => {
     // Here you would implement the checkout logic
-    window.open('https://checkout.hotmart.com', '_blank');
+    window.open('https://hotm.art/prescrevamepremium', '_blank');
     
     toast({
       title: "Redirecionando para o checkout",
