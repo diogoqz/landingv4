@@ -68,11 +68,3 @@ function Calendar({
 Calendar.displayName = 'Calendar';
 
 export { Calendar };
-
-function DayContent({ children }: any) {
-  return <div>{children}</div>;
-}
-
-function WeekContent({ children }: any) {
-  return <div>{children}</div>;
-}
