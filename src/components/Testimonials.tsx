@@ -56,7 +56,6 @@ function Testimonial({ name, role, messages, notification, index }: TestimonialP
 
 export default function Testimonials() {
   const sectionRef = useRef<HTMLElement>(null);
-  const isInView = useInView(sectionRef, { once: true, threshold: 0.1 });
   
   const testimonials = [
     {

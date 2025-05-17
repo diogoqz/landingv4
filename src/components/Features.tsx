@@ -35,7 +35,6 @@ function FeatureCard({ icon, title, description, delay = 0 }: FeatureCardProps) 
 
 export default function Features() {
   const sectionRef = useRef<HTMLElement>(null);
-  const isInView = useInView(sectionRef, { once: true, threshold: 0.1 });
   
   return (
     <>
@@ -128,12 +127,7 @@ export default function Features() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <FeatureCard 
-              icon={<BookOpen size={24} />} 
-              title="9+ Guias Médicas" 
-              description="Acesse rapidamente protocolos e guias médicos essenciais para sua prática clínica." 
-              delay={100} 
-            />
+ 
             <FeatureCard 
               icon={<FileText size={24} />} 
               title="Prescrições Prontas" 
@@ -176,12 +170,7 @@ export default function Features() {
               description="Utilize o aplicativo que você já conhece, sem curva de aprendizado ou instalações adicionais." 
               delay={800} 
             />
-            <FeatureCard 
-              icon={<Clock size={24} />} 
-              title="Acesso 24/7" 
-              description="Disponível 24 horas por dia, 7 dias por semana, para consultas rápidas durante plantões e emergências." 
-              delay={900} 
-            />
+      
             <FeatureCard 
               icon={<Shield size={24} />} 
               title="Conteúdo Confiável" 

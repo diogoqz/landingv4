@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { MessageCircle, Brain, Check } from 'lucide-react';
 import { WhatsAppMessage } from './WhatsAppUI';
-import { cn } from '@/lib/utils';
 
 export default function Hero() {
   const [isTyping, setIsTyping] = useState(false);
@@ -35,7 +34,7 @@ export default function Hero() {
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="w-full lg:w-1/2 text-center lg:text-left">
             <div className="inline-block mb-4 px-4 py-1 rounded-full bg-[#92caa2]/20 text-[#92caa2] font-medium text-sm">
-              <span>🧠 Assistente Clínico Inteligente</span>
+              <span>🧠 O guia oficial do médico atualizado. </span>
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-tight">
